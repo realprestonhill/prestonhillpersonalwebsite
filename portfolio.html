@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Preston Hill</title>
+    <meta
+      name="description"
+      content="Portfolio page with Preston Hill's writing samples and downloadable documents."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Jost:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="index.html" aria-label="Preston Hill home">
+            <span class="brand-mark">PH</span>
+            <span class="brand-lockup">
+              <span class="brand-name">Preston Hill</span>
+              <span class="brand-tag">Law, media, and public service</span>
+            </span>
+          </a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            Menu
+          </button>
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="is-current" href="portfolio.html">Portfolio</a>
+            <a href="media.html">Media</a>
+            <a href="gallery.html">Gallery</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero hero-subpage">
+          <div class="container split-hero">
+            <div>
+              <p class="eyebrow">Portfolio</p>
+              <h1>Selected writing and papers.</h1>
+              <p class="hero-lead">
+                Over the years I have written essays on politics, law, and
+                current events for school, clubs, and personal projects.
+              </p>
+            </div>
+            <div class="image-panel">
+              <img src="assets/images/site-mark.png" alt="Preston Hill logo mark" />
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container document-list">
+            <article class="document-card">
+              <p class="document-type">Research</p>
+              <h2>Senior Thesis: Mitigating the Margin of Error</h2>
+              <p>
+                Live site file name: <em>Hill – paper (2)</em>
+              </p>
+              <a
+                class="button button-primary"
+                href="assets/docs/senior-thesis.pdf"
+                >Open PDF</a
+              >
+            </article>
+
+            <article class="document-card">
+              <p class="document-type">Legal writing</p>
+              <h2>NetChoice v. Paxton Amicus Brief</h2>
+              <p>
+                Live site file name:
+                <em>Preston Hill Amicus Brief (5)</em>
+              </p>
+              <a
+                class="button button-primary"
+                href="assets/docs/netchoice-amicus-brief.pdf"
+                >Open PDF</a
+              >
+            </article>
+
+            <article class="document-card">
+              <p class="document-type">International politics</p>
+              <h2>
+                A Turning Point: How the Election of Donald Trump, Shifting
+                Sentiments in Ukraine and Russia, and a Split in NATO Mark a
+                Change in the War in Ukraine
+              </h2>
+              <p>
+                Live site file name:
+                <em>hill_preston_euro_fa24_essay2 (3)</em>
+              </p>
+              <a
+                class="button button-primary"
+                href="assets/docs/ukraine-essay.pdf"
+                >Open PDF</a
+              >
+            </article>
+
+            <article class="document-card">
+              <p class="document-type">European politics</p>
+              <h2>
+                From Fringe to Relevance: How the Far-Right Is Leveraging
+                Migration Fears and Nationalism to Gain Power and Redefine Their
+                Influence in European Politics
+              </h2>
+              <p>
+                Live site file name:
+                <em>hill_preston_euro_fa24_essay1</em>
+              </p>
+              <a
+                class="button button-primary"
+                href="assets/docs/far-right-europe-essay.pdf"
+                >Open PDF</a
+              >
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="media.html">Media</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+          <p class="footer-note"><span id="year"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
