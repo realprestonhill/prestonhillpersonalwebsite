@@ -42,6 +42,10 @@ body.page-about {
   background: linear-gradient(180deg, #67aedd 0%, var(--blue) 36%, #eff3f8 36%);
 }
 
+body.page-gallery {
+  background: linear-gradient(180deg, #67aedd 0%, var(--blue) 32%, #eff3f8 32%);
+}
+
 a {
   color: inherit;
 }
@@ -320,6 +324,27 @@ img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.92));
 }
 
+.home-overview {
+  margin-top: 1.5rem;
+  padding-top: 6rem;
+  background: #eff3f8;
+}
+
+.home-overview .summary-card {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(180deg, #68addc 0%, #4f96cc 100%);
+  color: #fff;
+}
+
+.home-overview .summary-card h3,
+.home-overview .summary-card li {
+  color: #fff;
+}
+
+.home-overview .summary-card ul {
+  padding-left: 1.1rem;
+}
+
 .page-media .section,
 .page-media .section-alt {
   background: transparent;
@@ -340,6 +365,16 @@ img {
 }
 
 .page-about .about-intro {
+  margin-top: -1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.14), transparent 30%),
+    linear-gradient(180deg, #68addc 0%, #4f96cc 100%);
+  color: #fff;
+}
+
+.page-gallery .gallery-intro {
   margin-top: -1.5rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -526,6 +561,15 @@ img {
 .document-card {
   display: grid;
   gap: 0.8rem;
+}
+
+.document-subtitle {
+  margin: 0.4rem 0 0;
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--blue-ink);
+  line-height: 1.1;
 }
 
 .media-grid {
